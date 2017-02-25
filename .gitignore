@@ -1,11 +1,5 @@
-# OSX #
+node_modules
+dist
+build
 .DS_Store
-
-# Environmental Variables #
-**/.env
-*.saved
 *.log
-
-# Node.js #
-node_modules/
-npm-debug.log
