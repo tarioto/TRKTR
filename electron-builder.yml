@@ -1,6 +1,6 @@
 appId: com.example.app
 copyright: Example co
-productName: MyApp
+productName: TRKTR
 
 asar: true
 
@@ -27,6 +27,7 @@ dmg:
 mac:
   target: dmg
   category: public.app-category.tools
+  icon: ./assets/icon.icns
 
 win:
   target: nsis
