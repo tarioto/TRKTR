@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import { Button, TextInput } from 'react-desktop/macOs';
 
 export default class Login extends Component {
   static propTypes = {
@@ -18,8 +19,8 @@ export default class Login extends Component {
     return (
       <div>
         <h2>Login</h2>
-        <input ref="username" type="text" />
-        <button onClick={::this.handleLogin}>Log In</button>
+        <TextInput ref="username" type="text" />
+        <Button onClick={::this.handleLogin}>Log In</Button>
       </div>
     );
   }
